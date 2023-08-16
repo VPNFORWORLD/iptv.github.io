@@ -19,7 +19,7 @@
   var video = document.getElementById('video');
   if(Hls.isSupported()) {
     var hls = new Hls();
-    hls.loadSource('http://live-nntv2.cdnvideo.ru/nntv2/cfd99gu0ai_nntv_tv/playlist.m3u8');
+    hls.loadSource('https://live-sovsec.cdnvideo.ru/sovsec/sovsec.smil/playlist.m3u8');
     hls.attachMedia(video);
     video.play();
   }
